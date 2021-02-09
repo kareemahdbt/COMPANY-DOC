@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 30px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+main {
+  font-weight: bold;
+  font-size: 35px;
+  margin-top: 15px;
+  padding-left: 10px;
+}
+
+.container {
+  margin: auto;
+  max-width: 1200px;
+  overflow: hidden;
+}
+header {
+  background: #1c313a;
+  color: #ffffff;
+  padding-top: 40px;
+  min-height: 70px;
+
+}
+header ul {
+  padding: 0;
+  margin-bottom: 20px;
+}
+header a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.6s ease-in-out;
+}
+header a:hover {
+  color: #ffff00;
+}
+header li {
+  float: left;
+  display: inline;
+  padding: 0px 20px 25px 20px;
+  margin-bottom: 30px;
+}
+
+nav {
+  float: right;
+  margin-bottom: 30px;
+}
+.spl {
+  color: #ffff00;
+}
+
+.main h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 55px;
+  margin-left: 40px;
+  line-height: 60px;
+}
+.main p {
+  margin-top: 30px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.box {
+  float: left;
+  width: 30%;
+  text-align: center;
+  padding: 10px;
+}
+.box img {
+  height: 130px;
+  width: 130px;
+}
+
+h3 {
+  font-size: 26px;
+}
+.color {
+  background: #1c313a;
+  color: white;
+  width: 65%;
+  margin: 20px;
+}
+p {
+  margin: 15px;
+  font-size: 20px;
+}
+.plt {
+  float: right;
+  width: 90%;
+  padding-top: 20px;
+}
+.plt li {
+  list-style-type: none;
+  padding: 15px;
+  border: #1c313a solid 3px;
+  border-radius: 20px;
+  margin-bottom: 5px;
+  background: #cccccc;
+}
+.glass {
+  background: #cccccc;
+  width: 45%;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0 0 450px;
+  border-radius: 4px;
+}
+.ipt {
+  width: 300px;
+  height: 40px;
+  outline: none;
+  border: none;
+  margin: 10px;
+  text-align: center;
+}
+.ipt2 {
+  display: flex;
+  width: 300px;
+  height: 40px;
+  outline: none;
+  border: none;
+  margin: 15px;
+  text-align: center;
+  margin-left: 25px;
+}
+.btn {
+  width: 300px;
+  background: #1c313a;
+  cursor: pointer;
+  box-shadow: 5px 5px #484848;
+  outline: none;
+  border: none;
+  color: white;
+}
+.btn a {
+  text-decoration: none;
+  color:black ;
+}
+.btn:hover {
+  background: white;
+  color: black;
+}
+.btn-2 {
+  width: 300px;
+  background: white;
+  cursor: pointer;
+  margin-left: 25px;
+  box-shadow: 5px 5px #484848;
+  outline: none;
+  border: none;
+}
+.btn-2:hover {
+  background: #1c313a;
+  color: white;
+}
+.btn-3 {
+  width: 300px;
+  background: #ffeb3b;
+  margin-bottom: 20px;
+ box-shadow: 5px 5px #484848;
+  outline: none; 
+  cursor: pointer;
+  border: none;
+}
+.btn-3:hover {
+  background:white;
+  color:black;
+}
+h5{
+  text-align: center;
+}
+.btns{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+.btn-4{
+  margin-bottom: 10px;
+  box-shadow: 5px 5px #484848;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background: white;
+  color: black;
+}
+.btn-4:hover{
+background: #ffeb3b; 
+color: black;
+}
+
+.btn-5{
+  box-shadow: 5px 5px #484848;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background: black;
+  color: white;
+}
+.btn-5:hover{
+  background: #ffeb3b ;
+  color: black;
+}
+.glass a{
+  color:white;
+}
+.glass a:hover{
+  color:  #1c313a;
+}
+footer {
+  padding: 20px;
+  margin-top: 50px;
+  color: #000;
+  background: #ffeb3b;
+  text-align: center;
+  font-weight: 500;
+}
